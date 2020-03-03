@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -49,10 +50,11 @@ body {
 }
 
 .side-nav a {
-    color: #4d4d4d;
+    color:#333333 ;
     padding: 10px 10px 10px 30px ;
     text-decoration: none;
     /* text-align: center; */
+    box-sizing: inherit;
     font-size: 1.5rem;
     font-weight: bolder;
     display: block;
@@ -60,7 +62,8 @@ body {
 }
 
 .side-nav a:hover {
-    color:#333333 ;
+    
+    color: #4d4d4d;
 }
 
 .side-nav .btn-close {
@@ -70,9 +73,11 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
-img {
-    color: #4d4d4d;  /*hamburger menu icon*/
+
+#menu-icon {
+    color: #fff;  /*hamburger menu icon*/
 }
+
 a {
     text-decoration: none;
     color: #ccc;
@@ -94,6 +99,18 @@ a {
       overflow: hidden;
 }
 
-#main h2, h4 {
+#main h3, h4 {
     color: #ffdb4d ;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    padding: 0px 0px 0 0;
+    font-weight: bold;
+    line-height: 53px;
 }
